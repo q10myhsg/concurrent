@@ -125,6 +125,7 @@ class Consumer extends Thread {
 	// 构造函数，设置仓库
 	public Consumer(Storage storage) {
 		this.storage = storage;
+		
 	}
 
 	// 线程run函数
